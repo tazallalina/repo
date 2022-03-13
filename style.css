@@ -1,0 +1,291 @@
+*{
+ margin:0px;
+ padding: 0px;
+ scroll-behavior: smooth;
+}
+body{
+  padding: 0px;
+}
+
+.header{
+    background-color: #000;
+    padding: 20px 0px;
+    height: 70px;
+    position:fixed;
+    width:100%;
+    border-bottom:1px solid #FFFFFF;
+
+
+
+
+}
+.logo{
+
+  font-size: 25px;
+  width:30%;
+  float:left;
+  padding-left: 200px;
+
+
+}
+.logo_style{
+  color: #24A9E8;
+  font-size: 35px;
+
+}
+.menu{
+
+  float: right;
+  padding-top: 10px;
+  padding-right: 100px;
+
+}
+ul li{
+  display: inline;
+}
+ul li a{
+  text-decoration: none;
+  color:#fff;
+  padding: 0px 10px;
+  font-size: 20px;
+
+}
+.logo a{
+  text-decoration: none;
+    color: #FFCC01;
+
+}
+li input{
+  width:20%;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+li button{
+    width: 13%;
+    height: 34px;
+    border-radius: 5px;
+}
+.menu ul li  a{
+  border-right: 1px solid #fff;
+}
+/*home*/
+#home{
+    height: 640px;
+    background:#161616 ;
+    box-sizing: border-box;
+    background-image: url("img/ice.jpg");
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+
+
+
+
+}
+.h_content  span{
+  color: rgb(184, 196, 17);
+}
+.h_content{
+    background-color: #13121263;
+    height: 100%;
+    padding: 50px 200px;
+    padding-top:160px;
+    text-align: center;
+}
+.h_content h3{
+  font-size: 1.7rem;
+  color:#fff;
+}
+.h_content h2{
+  font-size: 2rem;
+  color:rgb(243, 239, 239);
+}
+.h_content h1,h3 {
+    color: white;
+}
+.h_content p {
+    font-size:1.5rem;
+    color:#eee;
+    padding: 1rem 0;
+}
+.btn{
+  padding:.4rem 1.7rem;
+  background:#333;
+  color:#fff;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 1.7rem;
+  border-radius: 5rem;
+}
+
+.btn i{
+  padding:0 .5rem;
+  font-size: 1.5rem;
+}
+.btn:hover{
+  background:rgb(184, 196, 17);
+}
+#about{
+  padding: 50px 200px;
+  height: 640px;
+  background: #091718;
+  padding-top:150px;
+  box-sizing: border-box;
+  color: #fff;
+}
+#about h1{
+  font-size: 40px;
+  text-align: center;
+}
+.about_left{
+  width: 45%;
+  float: left;
+  padding-top: 20px;
+
+
+}
+
+.about_left p{
+  text-align: justify;
+  line-height: 20px;
+
+}
+.about_right{
+  float: right;
+  padding-top: 20px;
+
+}
+.about_right img{
+  width: 400px;
+  height: 300px;
+    display: block;
+    padding-top: 20px;
+}
+
+#service{
+  padding: 50px 170px;
+    height: 640px;
+  background:#E5D660 ;
+  padding-top:150px;
+  box-sizing: border-box;
+  text-align: center;
+}
+#service h1{
+  padding-top: 10px;
+  font-size: 40px;
+}
+#service p{
+  padding-top: 10px;
+  font-size: 20px;
+}
+.s_div{
+  padding-top: 2px;
+  height: 192px;
+  width: 23%;
+  background-color: #000;
+  border-radius: 50%;
+  float: left;
+  margin: 50px;
+}
+.s_div p{
+  color: white;
+padding: 28px;
+}
+#gallery{
+  padding: 30px 200px;
+    height: 900px;
+  background-color:#fff;
+  box-sizing: border-box;
+  padding-top:120px;
+  box-sizing: border-box;
+  color: #000;
+
+}
+#gallery h1{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.gallery1 ul li img{
+  height: 167px;
+    width: 230px;
+}
+.gallery2 ul li img{
+  height: 188px;
+    width: 308px
+}
+/*contact*/
+#contact{
+  padding: 20px 200px;
+    height: 58S0px;
+  background:#000 ;
+  padding-top:110px;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+}
+#contact h1{
+  padding: 15px;
+  font-size: 40px;
+}
+#contact p{
+  padding-top: 10px;
+  font-size: 20px;
+}
+.c_form input{
+    padding: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    height: 15px;
+    font-size: 15px;
+    background: transparent;
+    border: none;
+    border-bottom:1px solid #F0F0F0;
+    color: white;
+}
+.c_form textarea{
+    padding: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    height: 60px;
+    font-size: 15px;
+    background: transparent;
+    border: none;
+    border-bottom:1px solid #F0F0F0;
+    color: white;
+
+}
+.c_form button{
+
+    margin-top:5px;
+    height: 40px;
+    width: 70px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: red;
+
+}
+/*footer*/
+#footer{
+    padding: 10px px;
+    background-color: #342424e8;
+    height: 100px;
+    text-align: center;
+}
+
+.f_gallery ul li a i{
+    height: 20px;
+    width: 24px;
+   margin-top: 10px;
+   background: #fff;
+   color: green;
+   padding: 5px;
+   border-radius: 50%;
+
+}
+#footer p{
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+}
